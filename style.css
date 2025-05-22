@@ -1,0 +1,345 @@
+ body{
+    background-color:darkslategrey;
+    color:black;
+ }
+ .main{
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   padding:5px 10%;
+   background: rgb(65, 34, 46);
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top:-1%;
+ }
+ .navbar {
+    width:80%;
+    display:flex;
+    margin:auto;
+    text-align:center;
+    justify-content: space-between;
+ }
+ ul{
+    margin-top: 1%;
+ }
+ ul li{
+    list-style:none;
+    display:inline-block;
+    padding:12px 19px;
+ }
+ ul li a{
+   font-size: 18px;
+    color:aqua;
+    text-decoration:solid;
+    font-weight:bold;
+    margin-top: -3%;
+    text-align:right;
+    transition: .5s ease ;
+ }
+    
+ ul li a:hover{
+    color:red;
+ }
+ .abb h2{
+    text-align:left;
+    color:black;
+    font-style:oblique;
+    font-size: 30px;
+    margin-left:8%;
+    margin-top: 15%;
+ }
+ h2 span{
+    color:orangered;
+ }
+ 
+#pavi{
+    border-radius: 50%;
+    border:2px solid skyblue;
+    margin-left:70%;
+    margin-top: -50%;
+    margin-bottom: 30px;
+}
+.info a{
+    text-decoration:none;
+    color:white;
+    background:mediumblue;
+    margin:10px 10px;
+    padding:10px 10px;
+    border-radius: 20px;
+    display:inline-block;
+    margin-left: 8%;
+    font-size:15px;
+    font-style:normal;
+    transition: .4s ease;
+}
+.info :hover{
+    background:red;
+}
+.para{
+   color:white;
+   font-size:15px;
+   margin-left: 8%;
+}
+section h2{
+   color:white;
+   text-align:left;
+   font-style: oblique;
+   font-weight: bold;
+   margin-left: 0;
+   font-size: 35px;
+   margin-top: 8%;;
+}
+
+#devi{
+   border-radius: 50%;
+   margin-left: 8%;
+   margin-top:90px;
+   float:left;
+   border:2px solid greenyellow;
+}
+.paras{
+   margin-left: 35%;
+   font-size: 15px;
+   padding: 30px;
+   color:white;
+   
+}
+.more a{
+   text-decoration: none;
+   color:white;
+   background:mediumblue;
+   margin:10px 10px;
+   padding:10px 10px;
+   border-radius: 20px;
+   display:inline-block;
+   margin-left: 38%;
+   font-size:15px;
+   font-style:normal;
+   transition: .4s ease;
+
+}
+.more a:hover{
+    background:red;
+}
+
+.lan1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.lan{
+   height:300px;
+   width:200px;
+   margin:20px;
+   box-shadow: -1px 0 10px white;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+   color:white;
+   text-align:center;
+   margin-top: 3px;
+ 
+}
+.head h2{
+   margin-top: 90px;
+   text-align: center;
+   font-size: 40px;
+}
+.tech1 h2{
+   font-size:35px;
+   color:bisque;
+   margin:20px;
+   margin-left: 35%;
+
+}
+.tech h3{
+   margin:5px;
+   padding: 5px;
+}
+.tech{
+   width:450px;
+   margin:45px;
+   padding:20px;
+   margin-left:25%;
+   box-shadow: 1px 0 10px white;
+}
+
+.bar{
+   background: black;
+   display: block;
+   height:12px;
+   border:1px solid white;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 1px 0 10px grey;
+   transition: all 0.4s cubic-bezier(.15,.8,.25,1);
+
+}
+.bar:hover{
+   box-shadow: 1px 0 10px white;
+}
+.bar span{
+   height:20px;
+   float:left;
+   font-size:10px;
+   text-align: end;
+   background: linear-gradient(cyan,blue,orange);
+}
+.html{
+   width:90%;
+   animation:html 3s;
+}
+.css{
+   width:70%;
+   animation:css 3s;
+}
+.javascript{
+   width:45%;
+   animation:javascript 3s;
+}
+.java{
+   width:51%;
+   animation:java 3s;
+}
+.c{
+   width:60%;
+   animation:c 3s;
+}
+@keyframes html{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:90%
+   }
+}
+@keyframes css{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:70%
+   }
+}
+@keyframes javascript{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:45%
+   }
+}
+@keyframes java{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:51%
+   }
+}
+@keyframes c{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:60%
+   }
+}
+.work h2{
+   text-align: center;
+   color:bisque;
+}
+#lap{
+   margin:7%;
+   border-radius: 50%;
+   border:2px solid greenyellow;  
+}
+.works {
+   display: flex;
+}
+.portf {
+   color:white;
+   box-shadow: 1px 0 10px white;
+   height:500px;
+   width:350px; 
+   font-size: 17px;
+   text-align:center;
+}
+.portf h2{
+   color:aqua;
+}
+.portf a{
+   text-decoration: none;
+   color:white;
+   background-color: blue;
+   padding:10px 10px;
+   margin:10px 10px;
+   display: inline-block;
+   border-radius: 20px;
+   font-size: 15px;
+   transition: .4s ease;
+}
+
+.portf a:hover{
+   background: red;;
+}
+.cont h2{
+   text-align: center;
+}
+.details input,textarea{
+   padding:3px;
+   margin:10px;
+   border: none;
+   width:35%;
+   margin-left: 35%;
+   background:cadetblue;
+   box-shadow:1px 0 10px rgb(127, 127, 223);  
+   transition: .4s ease;
+}
+.details :hover{
+   background: rgb(47, 119, 119);
+}
+
+.details ::placeholder{
+   color:rgb(44, 32, 32);
+}
+.submit a{
+   text-decoration: none;
+   color:white;
+   background-color: blue;
+   padding:10px 20px;
+   margin:10px 10px;
+   border-radius: 20px;
+   display: inline-block;
+   font-size:18px;
+   margin-left: 35%;
+   transition: .4s ease;
+  
+}
+.submit a:hover{
+   background: red;
+}
+.icons a{
+   padding:9px ;
+   background-color:rgb(108, 201, 201);
+   border-radius: 50%;
+   font-size: 20px;
+   display: inline-block;
+   margin-bottom: 10px;
+   margin:10px auto;
+   margin-left: 30px;
+   margin-bottom: 50px;
+}
+.icons ion-icon{
+   height:22px;
+   width:22px;
+   gap:20px;
+   display: flex;
+}
+.icons :hover{
+   background: rgb(212, 75, 139);
+}
+
